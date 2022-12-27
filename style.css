@@ -71,7 +71,7 @@ nav ul li{
  height: 50px;
  display: flex;
  background-color: white;
- width: 350px;
+ width: 109%;
  color: black;
  margin: 12px 0;
  justify-content: space-between;
@@ -99,3 +99,12 @@ nav ul li{
    opacity: 0;
    transition: opacity 0.3s ease-in;
 }
+body {
+    background-color: rgb(27, 176, 27);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(217, 227, 231);
+    }
+  }
