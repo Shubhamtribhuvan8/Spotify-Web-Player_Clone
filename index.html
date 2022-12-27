@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your Favorite Music Here</title>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand" ><img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png" alt="Spotify">Spotify</li>
+          <li>Home</li>
+          <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       <h1>Best Of NCS-No Copyright Sounds</h1>
+       <div class="songitemcontainer">
+        <div class="songitem">
+            <img src="/covers/1.jpg" alt="1">
+            <span class="songname">Song 1</span>
+            <span class="songplaylist"><span class="timestamp">05:34 <span id="1" class="songitemplay material-symbols-outlined"> play_circle </span></span></span>
+        </div>
+        <div class="songitem">
+            <img src="/covers/2.jpg" alt="1">
+            <span class="songname">Song 2</span>
+            <span class="songplaylist"><span class="timestamp">05:34 <span id="2" class="songitemplay material-symbols-outlined"> play_circle </span></span></span>
+        </div>
+        <div class="songitem">
+            <img src="/covers/3.jpg" alt="1">
+            <span class="songname">Song 3</span>
+            <span class="songplaylist"><span class="timestamp">05:34 <span id="3" class="songitemplay material-symbols-outlined"> play_circle </span></span></span>
+        </div>
+        <div class="songitem">
+            <img src="/covers/4.jpg" alt="1">
+            <span class="songname">Song 4</span>
+            <span class="songplaylist"><span class="timestamp">05:34 <span id="4" class="songitemplay material-symbols-outlined"> play_circle </span></span></span>
+        </div>
+        <div class="songitem">
+            <img src="/covers/5.jpg" alt="1">
+            <span class="songname">Song 5</span>
+            <span class="songplaylist"><span class="timestamp">05:34 <span id="5" class="songitemplay material-symbols-outlined"> play_circle </span></span></span>
+        </div>
+        <div class="songitem">
+            <img src="/covers/6.jpg" alt="1">
+            <span class="songname">Song 6</span>
+            <span class="songplaylist"><span class="timestamp">05:34 <span id="6" class="songitemplay material-symbols-outlined"> play_circle </span></span></span>
+        </div>
+       </div>
+       </div>
+       <div class="songList"></div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+       <div class="icons">
+     <span class="material-symbols-outlined" id="previous">fast_rewind</span> 
+     <span class="material-symbols-outlined" id="masterplay">play_circle </span>
+     <span class="material-symbols-outlined" id="next">fast_forward</span>
+       </div>
+       <div class="songinfo">
+        <img src="https://i.gifer.com/5uwq.gif" width="42px" alt="" id="gif"><span id="mastersong">Song1</span>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
